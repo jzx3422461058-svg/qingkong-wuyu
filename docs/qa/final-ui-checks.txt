@@ -1,0 +1,10 @@
+PASS six-module navigation and four domain editor saves under network denial
+PASS Command+S editor save
+PASS Escape closes editor and retains draft
+PASS home circular entrance navigates to courses
+PASS native file chooser > CSV preview > import
+PASS final disk read: CSV course once, double-week pattern
+PASS course scroll offset preserved 180 -> 180
+PASS installed bundle signature verified with codesign --verify --deep --strict
+PASS installed app launched from /Users/junk/Applications/晴屿.app
+PASS formal workspace has zero course/workout/goal/activity/draft/trash test records

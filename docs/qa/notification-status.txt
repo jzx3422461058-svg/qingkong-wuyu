@@ -1,0 +1,2 @@
+Notification permission: 系统通知被关闭
+Last error: Notifications are not allowed for this application

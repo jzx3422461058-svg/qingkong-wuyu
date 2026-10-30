@@ -1,0 +1,12 @@
+Navigation transitions: 24
+Main-thread display callback samples: 483
+Requested display callback rate: 60 Hz
+Display callback median interval ms: 16.67
+Display callback p95 interval ms: 26.20
+Display callback max interval ms: 123.75
+Note: callback cadence measures main-thread responsiveness, not GPU-rendered frame rate.
+Course scroll position preserved after navigation: true (180.0 -> 180.0)
+Main window hidden on close: true
+Notification scheduler continued while hidden: true
+Main window reopened: true
+Notification permission: 已允许系统通知

@@ -1,0 +1,5 @@
+Permission: 2
+Main window hidden: true
+macOS notification center confirms delivery for test workout: true
+Persisted notification deduplication records: 1
+Visible banner appearance depends on notification style and Focus settings; not asserted by this probe.

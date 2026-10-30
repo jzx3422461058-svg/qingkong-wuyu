@@ -1,0 +1,3 @@
+PASS network-denied GUI: six-module navigation, course/workout/goal/activity create-save, manual backup and checksum
+Sandbox: (version 1) (allow default) (deny network*)
+Control curl request failed to resolve host under the same profile.

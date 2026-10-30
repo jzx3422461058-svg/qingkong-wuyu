@@ -1,0 +1,43 @@
+PASS Storage: reopen and invalid commit preserves data
+PASS Storage: failed write and backup recovery
+PASS Storage: corrupt restore preserves primary; damaged primary recovers
+PASS Storage: tampered payload fails checksum
+PASS Storage: daily retention keeps seven snapshots and preserves manual backups
+PASS Storage: unsupported backup version fails without changing saved data
+PASS Course: semester weeks, odd/even and boundaries
+PASS Course: one occurrence moved without changing following weeks
+PASS Course: invalid dates, empty parity and overlapping periods rejected
+PASS Course: CSV BOM, quoted commas, CRLF, preview and duplicate handling
+PASS Course: conflicts are retained; update preserves IDs and exceptions
+PASS Course: timezone conversion is independent of system timezone
+PASS Course: semester switching preserves prior courses and removes stale drafts
+PASS Fitness: actual sets remain independent from plan
+PASS Fitness: missing data is not zero; unfinished and skipped work excluded
+PASS Fitness: cardio validates applicable fields and rejects invalid numbers
+PASS Fitness: trends aggregate matching completed exercises by day
+PASS Goals: empty goals and cancelled-only goals have no artificial progress
+PASS Goals: action progress excludes cancelled actions; stages stay explicit
+PASS Goals: moving actions and reordering preserves identifiers and values
+PASS Goals: missing criteria and impossible dates rejected
+PASS Activities: registration and attendance remain independent
+PASS Activities: volunteer totals count actual attended service only
+PASS Activities: invalid interval, deadline and unsafe link rejected
+PASS Activities: preparation completion is distinct from participation
+PASS Reminders: event and registration are separate; mutation replaces stale content
+PASS Reminders: delivered deduplication survives disk reopen
+PASS Reminders: paused goals, completed stages and disabled modules are excluded
+PASS Workspace: complete export/restore preserves records, drafts and trash
+PASS Reminders: stale reminders older than catch-up window are not emitted
+PASS Workspace: every domain and relationship survives full disk round trip
+PASS Overview: actual teaching week, cancelled workout and paused goals
+PASS Overview: overlaps detect collisions but not adjacent intervals
+PASS Overview: multi-day activities appear on intervening days
+PASS Overview: upcoming includes overdue and excludes paused and completed
+PASS Reading: old workspaces decode with an empty shelf
+PASS Reading: status transition, optional date and title validation
+PASS Reading: combined status, category, author and title filters
+PASS Reading: category rename merge and removal preserve books and drafts
+PASS Reading: imported cover survives source deletion, restart, backup and trash restore
+PASS Reading: bad image and duplicate identity fail without changing saved data
+
+41 passed; 0 failed
